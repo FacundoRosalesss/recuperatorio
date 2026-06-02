@@ -17,8 +17,8 @@ def escaneo_manual(usuario = str, input_caracter = str):
         elif "0" <= i <= "9":
             cantidad_numeros += 1
         else:
-            for simbolo in simbolos_permitidos:
-                if i == simbolo:
+            for j in simbolos_permitidos:
+                if i == j:
                     cantidad_simbolos += 1
                     if i == ".":
                         cantidad_puntos += 1
